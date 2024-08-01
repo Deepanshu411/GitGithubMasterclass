@@ -50,3 +50,9 @@ async function fn1() {
 //     await fn2();
 //     console.log('>>>> fn2 completed');
 // })();// console.log('>>>> last');
+
+const arr = ['asd', 'lsf', 'htw', 'htek'];
+
+const result = arr.map(val => ({name: val}))
+console.log(result);
+console.log('Practice merge conflict resolve');
